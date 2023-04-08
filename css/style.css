@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /*scroll-behavior: smooth;*/
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* HERO-SECTION */
+.main-nav {
+  display: flex;
+
+  position: absolute;
+  z-index: 1;
+  gap: 5rem;
+}
+.main-nav li {
+  list-style: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.main-nav a,
+p {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.main-nav p {
+  text-decoration: line-through;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.hero-section {
+  position: relative;
+}
+.hero-img {
+  position: absolute;
+  width: 100%;
+}
+.cart {
+  color: aliceblue;
+  position: absolute;
+  right: 10rem;
+}
+.sample {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  z-index: 2;
+  color: aliceblue;
+}
