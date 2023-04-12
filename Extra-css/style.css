@@ -56,13 +56,21 @@ html {
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: #555;
 }
 
 /*HERO-SECTION*/
+
+/* This is a CSS code defining styles for a hero section of a website. It includes styles for the hero
+image, navigation links, logo, introduction text, and a call-to-action button. The `position:
+relative` and `position: absolute` properties are used to position the hero image and logo
+respectively. The `font-size`, `font-weight`, `text-transform`, `color`, `line-height`,
+`letter-spacing`, and `text-decoration` properties are used to style the text elements. The
+`max-width`, `margin`, and `display` properties are used to control the layout of the hero section. */
+
 .hero-section {
   position: relative;
 }
@@ -95,7 +103,7 @@ body {
 .hero-intro {
   color: #ffffff;
   font-size: 8rem;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   margin-top: 25rem;
   line-height: 1.2;
@@ -111,11 +119,52 @@ body {
   flex-flow: column wrap;
 }
 .hero-btn {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 25%;
   font-weight: 600;
   border: 2px solid #ffffff;
   color: #ffffff;
   background-color: transparent;
+  text-transform: uppercase;
+}
+
+/*SECOND-SECTION*/
+
+.second-section {
+  max-width: 160rem;
+  margin: 0 auto;
+  margin-top: 20rem;
+}
+.mid-container {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.mid-h1 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(32, 32, 32);
+}
+.mid-container p {
+  font-size: 2rem;
+  color: rgb(126, 121, 124);
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.second-sec-btn {
+  font-size: 1.5rem;
+  width: 40%;
+  padding: 3rem;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #000000de;
   text-transform: uppercase;
 }
