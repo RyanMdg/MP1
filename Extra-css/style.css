@@ -196,6 +196,7 @@ style of the elements within the section. */
   background-color: #000000;
   max-width: 165rem;
   margin-bottom: 2rem;
+  margin-top: 7rem;
 }
 .third-sub-cont h1 {
   text-transform: uppercase;
@@ -298,6 +299,11 @@ h1 {
 }
 
 /* LAST-SECTION */
+.last-section {
+  max-width: 160rem;
+  margin-bottom: 5rem;
+  margin-top: 7rem;
+}
 .last-sec-head {
   font-size: 3rem;
   color: #000000;
@@ -326,7 +332,34 @@ h1 {
   text-align: center;
   color: #555;
 }
-.last-section {
-  max-width: 160rem;
-  margin-bottom: 5rem;
+
+.last-link {
+  color: #555;
+  font-size: 1.5rem;
+  margin: 5rem;
+  letter-spacing: 1px;
+}
+.last-sec-1st-cont {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.last-img {
+  position: absolutez;
+}
+.release-radar {
+  background-color: #00000046;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 95%;
+  left: 2rem;
+  top: 35rem;
+  position: absolute;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 2rem;
+}
+.release-radar span {
+  font-weight: 400;
 }
