@@ -127,8 +127,20 @@ respectively. The `font-size`, `font-weight`, `text-transform`, `color`, `line-h
   background-color: transparent;
   text-transform: uppercase;
 }
+.dropdowns {
+  background-color: #555;
+}
 
 /*SECOND-SECTION*/
+
+/* This is a CSS code defining styles for the second section of a website. It includes styles for the
+section's heading, paragraph, and call-to-action button. The `max-width`, `margin`, and `margin-top`
+properties are used to control the layout of the section. The `display`, `flex-flow`, `text-align`,
+`justify-content`, `align-items`, and `gap` properties are used to control the layout of the
+elements within the section. The `font-size`, `font-weight`, `color`, `letter-spacing`, and
+`line-height` properties are used to style the text elements. The `width`, `padding`, `border`,
+`color`, `background-color`, and `text-transform` properties are used to style the call-to-action
+button. */
 
 .second-section {
   max-width: 160rem;
@@ -167,4 +179,154 @@ respectively. The `font-size`, `font-weight`, `text-transform`, `color`, `line-h
   color: #ffffff;
   background-color: #000000de;
   text-transform: uppercase;
+}
+
+/* 3RD-SECTION */
+
+/* This is a CSS code defining styles for the third section of a website. It includes styles for the
+section's heading, paragraph, call-to-action button, and images. The `padding`, `background-color`,
+`max-width`, and `margin-bottom` properties are used to control the layout of the section. The
+`display`, `flex-flow`, `align-items`, `justify-content`, `position`, `border`, `gap`,
+`text-transform`, `font-weight`, `font-size`, `color`, `line-height`, `padding`, `align-self`,
+`text-decoration`, `margin-right`, and `list-style` properties are used to control the layout and
+style of the elements within the section. */
+
+.thrid-container {
+  padding: 3rem;
+  background-color: #000000;
+  max-width: 165rem;
+  margin-bottom: 2rem;
+}
+.third-sub-cont h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.third-sub-cont p,
+h1 {
+  color: #ffffff;
+}
+.third-sub-cont p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1.5rem 15rem 1.5rem 0;
+  line-height: 1.5;
+}
+.Third-sec-btn {
+  font-size: 1.5rem;
+  width: 25%;
+  padding: 2rem;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #000000de;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.arrow-icon {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+.third-sub-2-cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: solid 1px #ffffff;
+}
+.third-sub-2-cont h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.third-sub-2-cont p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+  line-height: 1.5;
+  align-self: center;
+  font-size: 6rem;
+  font-weight: 900;
+}
+.span1 {
+  position: absolute;
+  left: 15.5rem;
+  top: 9rem;
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.span2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.banner {
+  color: #ffffff;
+  width: 100%;
+  border: solid 1px #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.img-shoes {
+  margin-top: 3rem;
+  width: 100%;
+}
+.shoes-name-cont {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+.shoes-name-cont li {
+  text-align: center;
+  margin-right: 4rem;
+  font-size: 1.5rem;
+  text-decoration: underline 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+
+/* LAST-SECTION */
+.last-sec-head {
+  font-size: 3rem;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  padding: 4rem;
+}
+.last-sec-article {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.last-sec-article h1 {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 2rem;
+}
+.last-sec-article p {
+  padding: 0 4rem 0 4rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #555;
+}
+.last-section {
+  max-width: 160rem;
+  margin-bottom: 5rem;
 }
