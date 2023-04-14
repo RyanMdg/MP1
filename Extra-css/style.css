@@ -363,3 +363,127 @@ h1 {
 .release-radar span {
   font-weight: 400;
 }
+.brand-logo {
+  width: 50%;
+}
+.brand-main-cont {
+  display: flex;
+  margin: 10rem 10rem 5rem 10rem;
+  align-items: center;
+}
+.brand-main-cont h1 {
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 2rem;
+}
+
+/* FOOTER-SECTION */
+.main-footer {
+  margin-top: 20rem;
+}
+.mod-logo {
+  width: 40%;
+}
+.mod-main-cont {
+  display: flex;
+  margin: 10rem 10rem 0 10rem;
+  align-items: center;
+}
+.mod-text-cont {
+  text-align: center;
+  display: flex;
+  margin: 0 15rem 1rem 8rem;
+  align-items: center;
+}
+.footer-mod-cont p {
+  font-size: 1.5rem;
+}
+.footer-intro h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.footer-intro span {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000000;
+  padding-right: 2rem;
+  padding-left: 0.5rem;
+  background-color: #ffffff;
+}
+.footer-intro p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0 30rem 0 0;
+}
+.footer-main {
+  background-color: #000000;
+  padding: 10rem 10rem 2rem 10rem;
+}
+.footer-hr {
+  border: solid 2px #ffffff;
+  margin: 5rem 0 0 0;
+}
+.footer-btn {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.subs-form {
+  font-weight: 700;
+}
+.list-footer {
+  display: flex;
+  flex-flow: column wrap;
+  color: #ffffff;
+  list-style: none;
+  gap: 2rem;
+}
+.list-footer p {
+  margin: 4rem 2rem 2rem 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.list-footer li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.footer-logo {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 8rem;
+  text-decoration: line-through;
+}
+.footer-logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-footer-copyright p {
+  margin: 2rem;
+  font-size: 1.2rem;
+  color: #ffffff7d;
+}
+.last-footer-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.last-footer-links li a {
+  text-decoration: none;
+  color: #ffffff7d;
+}
