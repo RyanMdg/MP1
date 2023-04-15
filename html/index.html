@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/Extra-css/style.css" />
+    <link rel="stylesheet" href="/Extra-css/media-queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,26 +30,36 @@
 
       <section class="mb-5 hero-section">
         <img
+          src="/img/hero-2-img.png"
+          class="img-fluid hero-img hidden2"
+          alt="hero-img"
+        />
+        <img
           src="/img/hero-img.jpg"
-          class="img-fluid hero-img"
+          class="img-fluid hero-img hidden"
           alt="hero-img"
         />
 
         <header>
           <nav class="navbar main-nav navbar-expand-lg">
-            <div class="container-fluid px-5 mt-5 nav">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+            <div class="container-fluid px-5 mt-5 nav burger">
+              <div class="burger">
+                <button
+                  class="navbar-toggler hamburger"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon hamburger1"></span>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse burgeritems"
+                id="navbarSupportedContent"
               >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-links me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a
@@ -129,8 +140,8 @@
 
       <section class="second-section container-fluid mb-5">
         <div class="row">
-          <div class="col-sm-4">
-            <img src="/img/girl.png" class="img-fluid" alt="" />
+          <div class="col-sm-4 second-sec-img-cont">
+            <img src="/img/girl.png" class="img-fluid girl-img" alt="" />
           </div>
           <div class="col-sm-4 mt--5 mid-container">
             <h1 class="mid-h1">golden hour</h1>
@@ -143,10 +154,10 @@
               shop now
             </button>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 second-sec-img-cont">
             <img
               src="/img/yellow-chuck-final.png"
-              class="img-fluid pb-5"
+              class="img-fluid girl-img mt-5 Chucks-img pb-5"
               alt=""
             />
           </div>
@@ -185,43 +196,46 @@
               <span class="span2">prices as marked</span>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-2">
+
+          <!--@MEDIA-QUERIES-47-EM-HIDE -->
+
+          <div class="row third-sec-hidden">
+            <div class="col-2">
               <img
                 class="img-fluid img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9586f004-25c7-4e72-bef9-6492f6491a4b/air-force-1-07-wb-mens-shoes-txRBM6.png"
                 alt=""
               />
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <img
                 class="img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e8e2d037-b69a-4941-9459-0e9b5c6bd50a/air-max-270-go-little-kids-easy-on-off-shoes-7XNmw3.png"
                 alt=""
               />
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <img
                 class="img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/67720f48-cbdb-4b74-94ad-f79d675cbbe3/air-max-plus-mens-shoes-x9G2xF.png"
                 alt=""
               />
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <img
                 class="img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a47b2ef9-8239-4e82-99fd-e6159c0df489/air-max-97-shoes-EBZrb8.png"
                 alt=""
               />
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <img
                 class="img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/427142af-e5b4-4fcf-8390-70eb4d53ecbb/air-vapormax-2023-flyknit-shoes-4LVgjW.png"
                 alt=""
               />
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <img
                 class="img-shoes"
                 src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0f7693fa-355f-4ff5-ae7e-09e143d41ed3/air-max-90-shoes-K0Hf12.png"
@@ -230,7 +244,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="shoe-name-main-container third-sec-hidden">
           <ul class="shoes-name-cont">
             <li class="shoes-name">air force 1</li>
             <li class="shoes-name">air max 270</li>
@@ -279,10 +293,10 @@
         </div>
         <div class="row brand-main-cont">
           <h1>shop by brand</h1>
-          <div class="col-md-2 brand-container1">
+          <div class="col-2 brand-container1">
             <img src="/brand-logos/nike.png" alt="" class="brand-logo" />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <img
               src="/brand-logos/adidas.png"
               style="width: 40%"
@@ -290,7 +304,7 @@
               class="brand-logo"
             />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <img
               src="/brand-logos/asics.png"
               style="width: 40%"
@@ -298,13 +312,13 @@
               class="brand-logo"
             />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <img src="/brand-logos/N-balance.png" alt="" class="brand-logo" />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <img src="/brand-logos/new-era.png" alt="" style="width: 70%" />
           </div>
-          <div class="col-md-2">
+          <div class="col-2">
             <img src="/brand-logos/converse.png" alt="" style="width: 70%" />
           </div>
         </div>
@@ -314,10 +328,10 @@
 
       <footer class="main-footer">
         <div class="row mod-main-cont">
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img src="/MOD-logo/atome.png" alt="" class="mod-logo" />
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img
               src="/MOD-logo/gcash.jpeg"
               style="width: 20%; border-radius: 10rem"
@@ -325,7 +339,7 @@
               class="mod-logo"
             />
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img
               src="/MOD-logo/paymaya.png"
               alt=""
@@ -334,33 +348,33 @@
             />
           </div>
 
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img src="/MOD-logo/cod.png" alt="" class="brand-logo" />
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img src="/MOD-logo/visa.png" alt="" style="width: 30%" />
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <img src="/MOD-logo/mastercard.png" alt="" style="width: 60%" />
           </div>
         </div>
         <div class="row mod-text-cont">
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p style="margin-right: 9rem">0% Installment</p>
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p style="margin-right: 12rem">Pay with Gcash</p>
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p style="margin-right: 7rem">Pay with Paymaya</p>
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p style="margin-right: 5rem">COD % Free shipping</p>
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p style="margin-right: 7rem">Pay via credit card</p>
           </div>
-          <div class="col-md-2 footer-mod-cont">
+          <div class="col-2 footer-mod-cont">
             <p>Mastercard</p>
           </div>
         </div>
@@ -369,7 +383,7 @@
 
         <div class="footer-main">
           <div class="row">
-            <div class="col-md-6 footer-intro">
+            <div class="col-sm-6 footer-intro">
               <h1>
                 Give your inbox a <span> <i> kick!.</i></span>
               </h1>
@@ -379,7 +393,7 @@
               </p>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-sm-6">
               <div class="col-sm-12">
                 <div class="content">
                   <h2 class="text-white subs-form">
@@ -391,7 +405,7 @@
                       class="form-control"
                       placeholder="Enter your email"
                     />
-                    <span class="input-group-btn">
+                    <span class="input-group-btn input-footer">
                       <button class="footer-btn" type="submit">
                         Subscribe Now
                       </button>
@@ -405,8 +419,8 @@
 
           <!-- mid-sec-footer -->
 
-          <div class="row">
-            <div class="col-md-2">
+          <div class="row center-footer">
+            <div class="col-2">
               <ul class="list-footer">
                 <p>shop</p>
                 <li><a href="">All Products</a></li>
@@ -414,7 +428,7 @@
                 <li><a href="">Clothing</a></li>
               </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <ul class="list-footer">
                 <p>about</p>
                 <li><a href="">About Us</a></li>
@@ -422,7 +436,7 @@
                 <li><a href="">FAQ</a></li>
               </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
               <ul class="list-footer">
                 <p>more</p>
                 <li><a href="">Wholesale</a></li>
@@ -431,7 +445,7 @@
                 <li><a href="">Gift Cards</a></li>
               </ul>
             </div>
-            <div class="col-md-6 footer-logo-cont">
+            <div class="col-sm-6 footer-logo-cont">
               <h1 class="footer-logo"><i> kicksinmanila</i></h1>
             </div>
           </div>
@@ -440,11 +454,11 @@
 
           <hr class="footer-hr" />
 
-          <div class="row">
-            <div class="col-md-6 last-footer-copyright">
+          <div class="row center-footer">
+            <div class="col-sm-6 last-footer-copyright">
               <p>&copy;2023Kicksinmanila.All Rights Reserved</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
               <ul class="last-footer-links">
                 <li><a href="">kicksinmanila@gmail.com</a></li>
                 <li><a href="">Terms of Service</a></li>

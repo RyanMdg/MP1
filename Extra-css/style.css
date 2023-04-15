@@ -71,6 +71,17 @@ respectively. The `font-size`, `font-weight`, `text-transform`, `color`, `line-h
 `letter-spacing`, and `text-decoration` properties are used to style the text elements. The
 `max-width`, `margin`, and `display` properties are used to control the layout of the hero section. */
 
+.hamburger {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #ffffff56;
+  margin-bottom: 1rem;
+}
+
+.hamburger1 {
+  font-size: 4rem;
+}
 .hero-section {
   position: relative;
 }
@@ -305,7 +316,7 @@ h1 {
   margin-top: 7rem;
 }
 .last-sec-head {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #000000;
   text-transform: uppercase;
   font-weight: 900;

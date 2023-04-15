@@ -1,0 +1,367 @@
+/*******************
+     BELOW 2724PX (small laptops)
+   *********************/
+@media (max-width: 107em) {
+  .hidden2 {
+    display: none;
+  }
+}
+
+@media (max-width: 103em) {
+  .second-section {
+    max-width: 160rem;
+    margin: 0 auto;
+    margin-top: 17rem;
+    
+  }
+  .thrid-container {
+    padding: 3rem;
+    background-color: #000000;
+    max-width: 160rem;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+  }
+  .span1 {
+    top: 8rem;
+   left: 14rem;
+  }
+  .Third-sec-btn {
+    
+    width: 27%;
+    
+
+  }
+  .hidden2 {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 100em) {
+
+  html {
+    font-size: 60%;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+}
+ @media (max-width: 95em) {
+  
+  html {
+    font-size: 55%;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 87em) {
+  
+  html {
+    font-size: 50%;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 80em) {
+  
+  html {
+    font-size: 47%;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 73em) {
+  
+  html {
+    font-size: 42%;
+  }
+
+  .hidden2 {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 65em) {
+  
+  html {
+    font-size: 38%;
+  }
+  .hidden2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 61em) {
+  
+  html {
+    font-size: 35%;
+  }
+  .burger {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 70%;
+  }
+  .burgeritems {
+    margin-left: 30rem ;
+    position: relative;
+  }
+  .logo-brand {
+    right: 65rem;
+    bottom: 10rem;
+  }
+  .hidden2 {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 58em) {
+  
+  html {
+    font-size: 30%;
+  }
+  .burger {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 70%;
+  }
+  .burgeritems {
+    margin-left: 30rem ;
+    position: relative;
+  }
+  .hidden2 {
+    display: none;
+  }
+}
+
+@media (max-width: 47.9em) {
+  
+  html {
+    font-size: 25%;
+}
+
+.hero-intro {
+  font-size: 9rem;
+}
+ .hero-btn {
+  font-size: 4rem;
+ }
+ .intro-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-left: 10rem;
+  position: relative;
+  bottom: 5rem;
+}
+ .logo-brand {
+  font-size: 8rem;
+  right: 55rem;
+ }
+ .third-sub-cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 6rem 0 6rem 0;
+ }
+
+ .thrid-container {
+  padding: 3rem;
+  background-color: #000000;
+  max-width: 150rem;
+  margin-bottom: 2rem;
+  margin-top: 7rem;
+}
+.third-sub-cont p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem 1.5rem 0;
+  line-height: 1.5;
+}
+.Third-sec-btn {
+  font-size: 1.5rem;
+  width: 15%;
+  padding: 2rem;
+}
+.third-sub-2-cont {
+  display: flex;
+  justify-content: center;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.span1 {
+  top: 10rem;
+ left: 25rem;
+}
+
+.shoe-name-main-container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.release-radar {
+  background-color: #00000046;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 95%;
+  left: 4rem;
+  top: 75rem;
+  position: absolute;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 5rem;
+}
+.hidden2 {
+  display: none;
+}
+}
+
+
+@media (max-width: 35em) {
+  html {
+    font-size: 20%;
+  }
+  .second-section {
+    margin-top: 70rem;
+  }
+  .hidden {
+    display: none;
+  }
+  .hidden2 {
+    display:inline;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+  }
+  
+  .hero-intro {
+    font-size: 15rem;
+   
+  }
+  .intro-container {
+    top: 30rem;
+  }
+
+  .girl-img {
+    width: 50vw;
+  }
+  .second-sec-img-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .mid-container {
+    gap: 2rem;
+    margin: 5rem 0 5rem 0;
+  }
+  .mid-container p  {
+    padding: 0 40rem 0 40rem;
+  }
+}
+@media (max-width: 29em) {
+  html {
+    font-size: 20%;
+  }
+  .girl-img {
+    width: 90vw;
+  }
+  .third-sec-hidden {
+    display: none;
+  }
+  .thrid-container {
+    max-width: 130rem;
+  }
+  .mid-h1 {
+    font-size:10rem;
+  }
+  .mid-container p {
+    font-size: 3rem;
+    padding: 5rem;
+  }
+  .second-sec-btn {
+    font-size: 4rem;
+  }
+  .center-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .last-footer-copyright {
+    text-align: center;
+  }
+
+  .footer-intro p{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  .footer-intro h1{
+    font-size: 5rem;
+  }
+  .input-footer {
+    width:50%;
+  }
+  .release-radar {
+    font-size: 5rem;
+    top: 60rem;
+  }
+  .last-sec-article h1 {
+    font-size: 5rem;
+    margin-top: 5rem;
+  }
+  .last-sec-article p{
+    font-size: 2.5rem;
+   
+  }
+  .last-link {
+    font-size: 2.5rem;
+  }
+  .logo-brand {
+    right: 30rem;
+    bottom: 10rem;
+  }
+
+}
+    /* second-section 
+  }
+  .second-section {
+    max-width: 150rem;
+    margin: 0 auto;
+    margin-top: 20rem;
+  }
+  .second-sec-img-cont {
+    display: flex;
+    justify-content: center;
+  }
+  /* last-section *
+  .last-section {
+    max-width: 160rem;
+    margin: 7rem auto 5rem auto;
+  }
+  .last-sec-1st-cont {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .release-radar {
+    width: 72%;
+    left: 11rem;
+    top: 25rem;
+  }
+  .thrid-container {
+    max-width: 165rem;
+  }
+}
