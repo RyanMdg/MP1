@@ -1,13 +1,49 @@
-/*******************
-     BELOW 2724PX (small laptops)
-   *********************/
+@media (max-width: 172em) {
+  html {
+    font-size: 100%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .second-sec-img-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .release-radar {
+    
+    width: 70%;
+    left: 21.5rem;
+    top: 25rem;
+    position: absolute;
+  
+  }
+}
+
+@media (max-width: 160em) {
+  html {
+    font-size: 100%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .second-sec-img-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 107em) {
+  html {
+    font-size: 62%;
+  }
   .hidden2 {
     display: none;
   }
 }
 
 @media (max-width: 103em) {
+  html {
+    font-size: 65%;
+  }
   .second-section {
     max-width: 160rem;
     margin: 0 auto;
