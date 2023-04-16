@@ -631,6 +631,13 @@
   .hidden2 {
     display: none;
   }
+  .girl-img {
+
+   margin: 0 5rem 0 5rem;
+  }
+  .third-sec-hidden {
+    display: none;
+  }
   .release-radar {
     width: 95%;
     left: 2rem;
@@ -644,7 +651,7 @@
     
   }
   .second-section {
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto;
   }
   .span1 {
@@ -658,7 +665,8 @@
   } 
   .col-intro  {
     position: relative;
-    bottom: 16rem;
+    bottom: 20rem;
+    right: 5rem;
     
   }
   .hero-intro {
@@ -727,7 +735,7 @@
   margin-bottom: 5rem;
 }
 .girl-img {
-  width: 50vw;
+  width: 100vw;
 }
 .third-sub-cont {
   display: flex;
@@ -776,7 +784,133 @@
 }
 }
 
+@media (max-width: 43em) {
+  html {
+    font-size: 50%;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 35rem;
+}
 
+}
+
+@media (max-width: 36em) {
+  html {
+    font-size: 50%;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 30rem;
+}
+.col-intro  {
+  position: relative;
+  bottom: 22rem;
+  right: 5rem;
+}
+}
+
+
+@media (max-width: 31em) {
+  html {
+    font-size: 40%;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 30rem;
+}
+.col-intro  {
+  position: relative;
+  bottom: 22rem;
+  right: 5rem;
+}
+.girl-img {
+
+  margin: 0 20rem 0 20rem;
+  width: 85%;
+ }
+ .thrid-container {
+  max-width: 60rem;
+  margin-bottom: 2rem;
+  
+}
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 35%;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 30rem;
+}
+.col-intro  {
+  position: relative;
+  bottom: 22rem;
+  right: 5rem;
+}
+.girl-img {
+
+  margin: 0 20rem 0 20rem;
+  width: 85%;
+ }
+ .thrid-container {
+  max-width: 60rem;
+  margin-bottom: 2rem;
+  
+}
+.Third-sec-btn {
+  width: 35%;
+  padding: 1rem;
+  margin-top: 2rem;
+} 
+.span1 {
+  top: 7rem;
+ left: 11rem;
+}
+
+}
+
+
+@media (max-width: 19em) {
+  html {
+    font-size: 28%;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 30rem;
+}
+.col-intro  {
+  position: relative;
+  bottom: 22rem;
+  right: 5rem;
+}
+.girl-img {
+
+  margin: 0 20rem 0 20rem;
+  width: 85%;
+ }
+ .thrid-container {
+  max-width: 60rem;
+  margin-bottom: 2rem;
+  
+}
+.Third-sec-btn {
+  width: 35%;
+  padding: 1rem;
+  margin-top: 2rem;
+} 
+.span1 {
+  top: 7rem;
+ left: 11rem;
+}
+
+}
 
 /*
 
