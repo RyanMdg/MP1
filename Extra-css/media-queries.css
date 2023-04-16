@@ -30,7 +30,756 @@
     display: flex;
     justify-content: center;
   }
+  .thrid-container {
+    padding: 3rem;
+    background-color: #000000;
+    max-width: 150rem;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+  }
+  .Third-sec-btn {
+    width: 30%;
+  } 
+  .span1 {
+    top: 8rem;
+   left: 12rem;
+  }
+  .last-sec-1st-cont {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .release-radar {
+    width: 70%;
+    left: 12rem;
+    top: 25rem;
+    position: absolute;
+  
+  }
 }
+
+@media (max-width: 153em) {
+  html {
+    font-size: 90%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 80%;
+    left: 8rem;
+    top: 28rem;
+    position: absolute;
+  }
+}
+
+@media (max-width: 147em) {
+  html {
+    font-size: 90%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 80%;
+    left: 8rem;
+    top: 28rem;
+    position: absolute;
+  }
+  .thrid-container {
+    padding: 3rem;
+    background-color: #000000;
+    max-width: 155rem;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+  }
+  .col-intro  {
+    position: relative;
+    bottom: 5rem;
+  }
+  .span1 {
+    top: 8rem;
+   left: 13rem;
+  }
+}
+
+@media (max-width: 138em) {
+  html {
+    font-size: 90%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 82%;
+    left: 7rem;
+    top: 28rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 150rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 145rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+  }
+  .span1 {
+    top: 8rem;
+   left: 12rem;
+   margin-right: 1rem;
+  }
+}
+
+@media (max-width: 131em) {
+  html {
+    font-size: 85%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 85%;
+    left: 6rem;
+    top: 29rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 150rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 145rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+    
+  }
+  
+}
+
+
+@media (max-width: 122em) {
+  html {
+    font-size: 85%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 28rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 135rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 135rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+  }
+  .span1 {
+    top: 8rem;
+   left: 8rem;
+   margin-right: 1rem;
+  }
+  .Third-sec-btn {
+    width: 31%;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 10rem;
+  }
+}
+
+@media (max-width: 110em) {
+  html {
+    font-size: 85%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 26rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 125rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 8rem;
+   left: 6rem;
+   margin-right: 1rem;
+  }
+  .Third-sec-btn {
+    width: 34%;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+  }
+}
+
+@media (max-width: 101em) {
+  html {
+    font-size: 70%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 30rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 135rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 8rem;
+   left: 8rem;
+   margin-right: 1rem;
+  }
+  .Third-sec-btn {
+    width: 32%;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+  }
+}
+
+@media (max-width: 96em) {
+  html {
+    font-size: 65%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 28rem;
+    position: absolute;
+  }  
+}
+
+@media (max-width: 87em) {
+  html {
+    font-size: 65%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 28rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 130rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 8rem;
+   left: 7rem;
+   margin-right: 1rem;
+  }
+  .Third-sec-btn {
+    width: 32%;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+  }
+}
+
+@media (max-width: 80em) {
+  html {
+    font-size: 65%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 94%;
+    left: 2rem;
+    top: 24rem;
+    position: absolute;
+  }
+  .thrid-container {
+    max-width: 118rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 8rem;
+   left: 7rem;
+   margin-right: 1rem;
+  }
+  .Third-sec-btn {
+    width: 37%;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+    
+  }
+  .hero-intro {
+    font-size: 6rem;
+}
+.second-sec-btn {
+  font-size: 1.5rem;
+  width: 50%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.mid-h1 {
+  font-size: 4rem;
+}
+.mid-container p {
+  font-size: 1.5rem;
+}
+
+.third-sub-2-cont h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.third-sub-2-cont p {
+  font-weight: 900;
+  font-size: 5rem;
+}
+.footer-logo {
+  font-size: 5rem;
+}
+
+.footer-intro p {
+ 
+  padding: 0 5rem 0 0;
+}
+
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 65%;
+  }
+  
+  .thrid-container {
+    max-width: 105rem;
+    margin-bottom: 2rem;
+    
+  }
+  .release-radar {
+   
+    top: 22rem;
+   
+  }
+  
+  .logo-brand {
+    text-transform: uppercase;
+    font-size: 4rem;
+    top: 1rem;
+  }
+  .span1 {
+    top: 6rem;
+   left: 4rem;
+  }
+  .Third-sec-btn {
+    width: 40%;
+  } 
+  .third-sub-cont p {
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0 0;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 68em) {
+  html {
+    font-size: 65%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 92%;
+    left: 2rem;
+    top: 24rem;
+    position: absolute;
+    font-size: 2.5rem;
+  }
+  .thrid-container {
+    max-width: 100rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 7rem;
+   left: 7rem;
+   margin-right: 1rem;
+   font-size: 1.5rem;
+  }
+  .Third-sec-btn {
+    width: 43%;
+    padding: 1rem;
+    margin-top: 2rem;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+    
+  }
+  .hero-intro {
+    font-size: 5rem;
+}
+.second-sec-btn {
+  font-size: 1.5rem;
+  width: 50%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.mid-h1 {
+  font-size: 4rem;
+}
+.mid-container p {
+  font-size: 1.5rem;
+}
+
+.third-sub-2-cont h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.third-sub-2-cont p {
+  font-weight: 900;
+  font-size: 4rem;
+}
+.footer-logo {
+  font-size: 5rem;
+}
+
+.footer-intro p {
+ 
+  padding: 0 5rem 0 0;
+}
+.footer-intro h1 {
+ 
+ font-size: 2.5rem;
+}
+
+
+.hero-btn {
+  font-size: 1.2rem;
+  width: 30%;
+  font-weight: 600;
+}
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 60%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .col-intro  {
+    position: relative;
+    bottom: 10rem;
+  }
+  .logo-brand {
+   display: none;
+   
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 55em) {
+  html {
+    font-size: 60%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 92%;
+    left: 2rem;
+    top: 27rem;
+    position: absolute;
+    font-size: 2.5rem;
+  }
+  .thrid-container {
+    max-width: 85rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 10rem;
+   left: 3rem;
+   margin-right: 1rem;
+   font-size: 1.5rem;
+  }
+  .Third-sec-btn {
+    width: 47%;
+    padding: 1rem;
+    margin-top: 2rem;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+    
+  }
+  .hero-intro {
+    font-size: 5rem;
+}
+.second-sec-btn {
+  font-size: 1.5rem;
+  width: 50%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.mid-h1 {
+  font-size: 4rem;
+}
+.mid-container p {
+  font-size: 1.5rem;
+}
+
+.third-sub-2-cont h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.third-sub-2-cont p {
+  font-weight: 900;
+  font-size: 4rem;
+}
+.footer-logo {
+  font-size: 5rem;
+}
+
+.footer-intro p {
+ 
+  padding: 0 5rem 0 0;
+}
+.footer-intro h1 {
+ 
+ font-size: 2.5rem;
+}
+
+
+.hero-btn {
+  font-size: 1.2rem;
+  width: 30%;
+  font-weight: 600;
+}
+
+.shoes-name-cont li {
+  text-align: center;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  text-decoration: underline 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 60%;
+  }
+  .hidden2 {
+    display: none;
+  }
+  .release-radar {
+    width: 95%;
+    left: 2rem;
+    top: 32rem;
+    position: absolute;
+    font-size: 2.5rem;
+  }
+  .thrid-container {
+    max-width: 70rem;
+    margin-bottom: 2rem;
+    
+  }
+  .second-section {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  .span1 {
+    top: 7rem;
+   left: 16rem;
+  }
+  .Third-sec-btn {
+    width: 30%;
+    padding: 1rem;
+    margin-top: 2rem;
+  } 
+  .col-intro  {
+    position: relative;
+    bottom: 16rem;
+    
+  }
+  .hero-intro {
+    font-size: 5rem;
+}
+.second-sec-btn {
+  font-size: 1.5rem;
+  width: 50%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.mid-h1 {
+  font-size: 4rem;
+}
+.mid-container p {
+  font-size: 1.5rem;
+}
+
+.third-sub-2-cont h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.third-sub-2-cont p {
+  font-weight: 900;
+  font-size: 4rem;
+}
+.footer-logo {
+  font-size: 5rem;
+}
+
+.footer-intro p {
+ 
+  padding: 0 5rem 2rem 0;
+  
+}
+.footer-main {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer-intro h1 {
+ 
+ font-size: 2.5rem;
+ padding-bottom: 1rem;
+}
+.mid-container p  {
+  padding: 0 13rem 0 13rem;
+  
+}
+
+.hero-btn {
+  font-size: 1.2rem;
+  width: 30%;
+  font-weight: 600;
+}
+
+.shoes-name-cont li {
+  text-align: center;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  text-decoration: underline 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+.girl-img {
+  width: 50vw;
+}
+.third-sub-cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 6rem 0 6rem 0;
+ }
+
+ .third-sub-2-cont {
+  display: flex;
+  justify-content: center;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.third-sub-cont p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  line-height: 1.5;
+}
+
+
+.shoes-name-cont  {
+  display: none;
+}
+.footer-mod-cont p {
+  font-size: 1rem;
+}
+
+.center-footer {
+  display: flex;
+  justify-content: center;
+}
+.list-footer p {
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  gap: 1rem;
+}
+.input-group {
+  margin-top: 2rem;
+}
+}
+
+
+
+/*
+
 @media (max-width: 107em) {
   html {
     font-size: 62%;
@@ -62,10 +811,7 @@
    left: 14rem;
   }
   .Third-sec-btn {
-    
     width: 27%;
-    
-
   }
   .hidden2 {
     display: none;
